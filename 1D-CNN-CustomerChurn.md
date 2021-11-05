@@ -7,6 +7,6 @@ Existen varios beneficios de monitorear el Churn, entre ellos está:
 3. La tasa de exito en ventas es entre un **60% - 70%** en clientes existentes, en comparación al 5% - 20% de tasa de exito en ventas a clientes nuevos.
 4. Es **siete veces más probable** un cliente existente compre o prueve otro de los productos o servicios ofertados por la empresa.
 
-## Notebook con código 
+## Notebook con código de este proyecto
 Puedes revisar más información sobre el código utilizado en el siguiente repositorio [1D CNN model Prediction](https://github.com/raquelvargas16/ibm-projects/blob/master/Churn%201D%20CNN%20model%20(One-Hot%20Encoding).ipynb)
 
