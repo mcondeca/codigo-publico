@@ -7,3 +7,6 @@ Pero ¿qué impulsa a los distintos algoritmos de precios en Amazon? Los algorit
 utilizando un sin número de modelos, sin embargo, la literatura apunta a dos modelos: Maskin-Tirole y Sobel como los más utilizados.
 
 
+
+
+![ss](https://user-images.githubusercontent.com/94183717/141489624-58784301-3d44-4eee-a0d0-1edd7caaa3bb.jpg)
