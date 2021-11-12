@@ -54,6 +54,6 @@ Para la segunda prueba, se agrupó las 10 categorías en dos grupos principales 
 Al interpretar los resultados, hay que recordar que se basan en una muestra. Es posible que diferentes productos conlleven otros resultados. Y que los resultados actuales provengan de los supuestos usados.  Diferentes patrones de dinámica de precios en Amazon podrían ser analizado por diferentes modelos de los que se analizan en este artículo. El número de observaciones es otra limitación; por eso, para la primera prueba, se asumió homogeneidad entre los productos; sin embargo, esto está lejos de la realidad. Cada uno de los productos analizados son productos diferenciados con los atributos del producto. Para la segunda prueba, la suposición se volvió más flexible y cercana a la realidad; sin embargo, el número de observaciones disminuyo. La tercera prueba solo nos da una imagen de las fluctuaciones de precios de los productos de la muestra durante el tiempo analizado. Esta variación podría explicarse por otros factores exógenos que ocurren al mismo tiempo en el mercado. 
 
      
-Puedes revisar más información sobre el código utilizado en el siguiente repositorio https://github.com/mcondeca/MASKINTIROLE#maskintirole
+Puedes revisar más información sobre el código utilizado en el siguiente  [repositorio](https://github.com/mcondeca/MASKINTIROLE#maskintirole)
 
 
