@@ -1,6 +1,7 @@
 # Midiendo las fluctuaciones de precio en la plataforma Amazon, por medio de dos modelos matemáticos: Maskin Tirole y Sobel Model
 
 Por: Ma. Daniela Conde
+Tiempo est. lectura: 4 min.
 
 <p align="center">
 <img 
@@ -42,7 +43,13 @@ El modelo de Sobel tiene como objetivo analizar el lado de la demanda y determin
      align = "center"/>
    
 
-Para analizar estos dos modelos se utilizó una base de datos autoconstruida que contiene cotizaciones de precios que se obtuvieron manualmente de Amazon. Los datos incluyen los precios diarios de 100 productos durante seis semanas (26.12.2020–02.02.2021). Los productos fueron seleccionados al azar usando un generador de números aleatorios Para la prueba de línea base se utilizó un umbral de corte del 25%. Entonces, se formuló la pregunta: para cada ocasión en que el precio cae, ¿Cuántos períodos se necesitan antes de que el precio vuelva a subir? Se calculó el Chi-Cuadrado a tres pruebas diferentes con supuestos clave. 
+### Un ejemplo práctico utilizando los precios de ciertos productos ofertados por Amazon
+     
+Para aplicar y ver el comportamiento de estos dos modelos con datos reales, se generó una base datos aleatoria que contenía cotizaciones de precios que se obtuvieron manualmente de Amazon. Los datos incluyen los precios diarios de 100 productos durante seis semanas entre 26/12/2020 y 02/02/2021. Los productos fueron seleccionados al azar usando un generador de números aleatorios Para la prueba de línea base se utilizó un umbral de corte del 25%. Entonces, se formuló la pregunta: 
+     
+ <!--- Cambiar formato del énfasis de esta pregunta -->**¿para cada ocasión en que el precio cae, cuántos períodos se necesitan antes de que el precio vuelva a subir?** 
+     
+Para comparar los distintos modelos se utilizaron [pruebas Chi-Cuadrado](https://www.j-pcs.org/article.asp?issn=2395-5414;year=2015;volume=1;issue=1;spage=69;epage=71;aulast=Rana) a tres pruebas diferentes con supuestos clave. 
 
 
 Para la primera comparación, se asumió que todos los productos de la muestra eran homogéneos. Los resultados mostraron que la distribución de Sobel tenía una mayor correlación entre los valores observados y esperados en la muestra. Se rechazó el modelo Maskin-Tirole y se concluyo que el modelo de Sobel es un candidato razonable para esta prueba.
@@ -53,7 +60,7 @@ Para la segunda prueba, se agrupó las 10 categorías en dos grupos principales 
 
 Al interpretar los resultados, hay que recordar que se basan en una muestra. Es posible que diferentes productos conlleven otros resultados. Y que los resultados actuales provengan de los supuestos usados.  Diferentes patrones de dinámica de precios en Amazon podrían ser analizado por diferentes modelos de los que se analizan en este artículo. El número de observaciones es otra limitación; por eso, para la primera prueba, se asumió homogeneidad entre los productos; sin embargo, esto está lejos de la realidad. Cada uno de los productos analizados son productos diferenciados con los atributos del producto. Para la segunda prueba, la suposición se volvió más flexible y cercana a la realidad; sin embargo, el número de observaciones disminuyó. La tercera prueba solo nos da una imagen de las fluctuaciones de precios de los productos de la muestra durante el tiempo analizado. Esta variación podría explicarse por otros factores exógenos que ocurren al mismo tiempo en el mercado. 
 
-     
+### Links de interés     
 Puedes revisar más información sobre el código utilizado en el siguiente  [repositorio](https://github.com/mcondeca/MASKINTIROLE#maskintirole)
 
 
