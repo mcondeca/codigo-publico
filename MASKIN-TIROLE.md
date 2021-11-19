@@ -1,6 +1,7 @@
 # Midiendo las fluctuaciones de precio en la plataforma Amazon, por medio de dos modelos matemáticos: Maskin Tirole y Sobel Model
 
 Por: Ma. Daniela Conde
+
 Tiempo est. lectura: 4 min.
 
 <p align="center">
@@ -47,7 +48,7 @@ El modelo de Sobel tiene como objetivo analizar el lado de la demanda y determin
      
 Para aplicar y ver el comportamiento de estos dos modelos con datos reales, se generó una base datos aleatoria que contenía cotizaciones de precios que se obtuvieron manualmente de Amazon. Los datos incluyen los precios diarios de 100 productos durante seis semanas entre 26/12/2020 y 02/02/2021. Los productos fueron seleccionados al azar usando un generador de números aleatorios Para la prueba de línea base se utilizó un umbral de corte del 25%. Entonces, se formuló la pregunta: 
      
- <!--- Cambiar formato del énfasis de esta pregunta -->**¿para cada ocasión en que el precio cae, cuántos períodos se necesitan antes de que el precio vuelva a subir?** 
+ **¿Para cada ocasión en que el precio cae, cuántos períodos se necesitan antes de que el precio vuelva a subir?** 
      
 Para comparar los distintos modelos se utilizaron [pruebas Chi-Cuadrado](https://www.j-pcs.org/article.asp?issn=2395-5414;year=2015;volume=1;issue=1;spage=69;epage=71;aulast=Rana) a tres pruebas diferentes con supuestos clave. 
 
