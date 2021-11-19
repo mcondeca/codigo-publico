@@ -53,6 +53,9 @@ grafico
   Datos macroeconómicos obtenidos del Banco Mundial.
   
   
+## Links adicionales
+
++ [Tesis en pdf](https://bibdigital.epn.edu.ec/bitstream/15000/19874/1/CD-9287.pdf)
 
 
 
