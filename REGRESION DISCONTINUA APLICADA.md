@@ -41,3 +41,6 @@ discontinua en corte, compararemos observaciones por encima y por debajo del cor
 promedio llamado efecto de tratamiento promedio local, o LATE. Para estimar se usa Two-Stage Least Squares (2SLS) Regression Analysis.
 
 
+### Links de interés     
+Puedes revisar más información sobre el código utilizado en el siguiente  [repositorio](https://github.com/mcondeca/REGRESIONDISCONTINUA)
+
