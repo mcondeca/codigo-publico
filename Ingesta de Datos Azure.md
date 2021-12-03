@@ -5,14 +5,14 @@ los científicos de datos para la elaboración de los modelos.
 ## Requisitos
   Tener acceso a la plataforma Azure
   
-  Azure Portal: es una consulta en donde se puede administrar todos los recursos de Azure
-  https://azure.microsoft.com/es-es/features/azure-portal/
+  Azure Portal: es una consulta en donde se puede administrar todos los recursos de Azure, más información en el siguiente 
+  [link](https://azure.microsoft.com/es-es/features/azure-portal/)
   
-  Azure Data Factory: permite crear pipelines de datos
-  https://azure.microsoft.com/es-mx/services/data-factory/#overview
+  Azure Data Factory: permite crear pipelines de datos. Más información en el siguiente 
+  [link](https://azure.microsoft.com/es-mx/services/data-factory/#overview)
   
-  Azure Devops: permite pasar a producción los pipelines de datos
-  https://azure.microsoft.com/es-es/services/devops/
+  Azure Devops: permite pasar a producción los pipelines de datos. Más información en el siguiente 
+  [link](https://azure.microsoft.com/es-es/services/devops/)
   
   
 ## Pasos a Seguir
@@ -22,7 +22,7 @@ los científicos de datos para la elaboración de los modelos.
 
 
 ## Aprobaciones de Expertos
-Es necesario que la data que vaya a ser ingestada sea revisada por los expertos del área de Gobierno de Datos y de Seguridad de la información
+Es necesario que la información que vaya a ser ingestada sea revisada por los expertos del área de Gobierno de Datos y de Seguridad de la información
 
  
 ## Revisión con Gobierno de Datos
