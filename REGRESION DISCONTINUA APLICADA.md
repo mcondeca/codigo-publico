@@ -42,5 +42,6 @@ promedio llamado efecto de tratamiento promedio local, o LATE. Para estimar se u
 
 
 ### Links de interés     
-Puedes revisar más información sobre el código utilizado en el siguiente  [repositorio](https://github.com/mcondeca/REGRESIONDISCONTINUA)
+Puedes revisar más información sobre el código utilizado en el siguiente  [repositorio](https://github.com/mcondeca/CODIGO-REGRESION-DIS.-)
+
 
