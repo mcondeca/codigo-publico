@@ -26,6 +26,10 @@ la oferta laboral de los adultos en edad de trabajar por cambios en la oferta la
 laboral de los adultos mayores. Estos hallazgos son particularmente importantes dado los objetivos de diseño de las transferencias monetarias. 
 
 
+<p align="center">
+  <img width="441" alt="Screenshot 2021-12-07 at 16 40 28" src="https://user-images.githubusercontent.com/94183717/145110804-4f7bf47a-2e13-4a16-8907-a815b1f61ca2.png">
+
+  
 ## METODOLOGÍA
 ## Regresión Discontinua Difusa:
 
