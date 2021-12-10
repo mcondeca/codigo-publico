@@ -34,12 +34,16 @@ laboral de los adultos mayores. Estos hallazgos son particularmente importantes 
 ## Regresión Discontinua Difusa:
 
 
+
 Es una de las herramientas de análisis econométrico de inferencia causal. Ha revolucionado como diseño de experimentos cuasiexperimentales
 por la transparencia en supuestos y facilidad en pruebas de robustez. La regresión discontinua es apropiada utilizar en cualquier situación 
 en donde la probabilidad en una variable de resultados, por ejemplo, trabajo, salta de manera discontinua ante la existencia de un corte de 
 asignación, cuando la unidad de observación está siendo tratada.
+  
+<p align="center">
+<img width="500" alt="Screenshot 2021-12-08 at 10 56 59" src="https://user-images.githubusercontent.com/94183717/145240340-d4100f73-8c19-40a4-aa56-a2cda14c6405.png">
 
-
+  
 El corazón de la regresión discontinua conlleva a que, dado que sabemos que la probabilidad de la asignación de tratamiento cambia de manera 
 discontinua en corte, compararemos observaciones por encima y por debajo del corte para estimar un tipo particular de efecto de tratamiento
 promedio llamado efecto de tratamiento promedio local, o LATE. Para estimar se usa Two-Stage Least Squares (2SLS) Regression Analysis.
