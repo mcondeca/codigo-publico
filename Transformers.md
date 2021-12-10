@@ -10,5 +10,5 @@ El Transformador permite paralelizar el problema, utilizar un conjunto de codifi
 Entrenar un transformador es complicado, actaulamente grandes empresas realizan el entrenamiento, por ejemplo, "BERT" es un transformado de Google con mascaramiento y utilizo la información de Wikipedia como base de entrenamiento, de forma bidireccional; la idea es predecir una palabra con las palabras anteriores y posteriores de los párrafos y este transformados es público. Sus aplicaciones son traductores, responder preguntas de un texto, entre otras.
 
 ##### links de accesos
-En la presentación realiza la explicación del Transformador con un ejemplo de traducción de una frase a otro idioma, para mayor aprendizaje ingrese al [link de la presentación:](https://pichincha.sharepoint.com/:v:/s/ChapterAdvancedAnalytics/EaToAX4BuoNKkshru2eA96kB7h1uEcnFIq6cTeCDD_qWdQ?e=hm3ATP)
+En la presentación realiza la explicación del Transformador con un ejemplo de traducción de una frase a otro idioma, para mayor aprendizaje ingrese al [link de la presentación](https://pichincha.sharepoint.com/:v:/s/ChapterAdvancedAnalytics/EaToAX4BuoNKkshru2eA96kB7h1uEcnFIq6cTeCDD_qWdQ?e=hm3ATP)
 
