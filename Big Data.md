@@ -55,7 +55,7 @@ Y si te estas preguntando, ¿Cómo puedo probar Spark?
 
 
 ¡Es super fácil! Los creadores de Spark crearon la plataforma Databricks, y no podía faltar la versión Community, 
-si deseas crearte una cuenta para comenzar prueba ingresando a este (link)[https://community.cloud.databricks.com/login.html].
+si deseas crearte una cuenta para comenzar prueba ingresando a este [link](https://community.cloud.databricks.com/login.html).
 
 Si todo sale bien, deberías ingresar al home de Databricks y ver algo como esto:
 
