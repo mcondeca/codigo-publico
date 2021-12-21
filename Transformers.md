@@ -10,6 +10,13 @@ El paradigma de atención trata de identificar, dentro de este conjunto de vecto
 
 Entrenar un transformer es complicado. Actualmente grandes empresas realizan el entrenamiento. Por ejemplo, _BERT_ es un transformer de Google con enmascaramiento y que para su entrenamiento se utilizó la información de Wikipedia y otros corpus gigantes. Existen varias formas de entrenar un transformer, una de ellas es enmascaramiento. En el enmascaramiento, la idea es predecir palabras, que fueron enmascaradas aleatoriamente, con base en la frase que la precede. En _BERT_, el entrenamiento es bidireccional, es decir, no solo se busca predecir palabras enmascaradas posteriores a una frase, sino también anteriores.
 
+Si bien es cierto que entrenar un transformer es complicado, la verdadera utilidad de este modelo radica en la posibilidad de hacer _transfer learning_. Transfer learning es una técnica que permite utilizar un modelo entrenado sobre conjuntos de datos masivos y que luego es re-entrenado para resolver problemas parecidos utilizando conjuntos de datos más pequeños. En este caso, el modelo que es re-entrenado (afinado) es el transformer.
+
 La presentación en el siguiente link explica el transformer con un ejemplo de traducción de una frase a otro idioma [link de la presentación](https://pichincha.sharepoint.com/:v:/s/ChapterAdvancedAnalytics/EaToAX4BuoNKkshru2eA96kB7h1uEcnFIq6cTeCDD_qWdQ?e=hm3ATP)
 
 ## Ejemplo
+El ejemplo dentro de este repositorio corresponde a clasificación de texto. Para el efecto, se afinó la versión en español de _BERT_, conocida como _BETO_. Más información acerca de BETO está disponible en https://github.com/dccuchile/beto
+
+El conocimiento del lenguaje español capturado por _BETO_ es “transferido” al modelo de ejemplo, en el que únicamente se requiere afinarlo. El proceso de afinamiento consiste justamente en la inclusión de un clasificador, y en el re-entrenamiento supervisado sobre un dataset más pequeño. De esta manera, el modelo adquiere conocimiento específico del dominio.
+
+El modelo de ejemplo fue entrenado para clasificar cada texto en una o más clases.
