@@ -17,6 +17,6 @@ La presentación en el siguiente link explica el transformer con un ejemplo de t
 ## Ejemplo
 El ejemplo dentro de este repositorio corresponde a clasificación de texto. Para el efecto, se afinó la versión en español de _BERT_, conocida como _BETO_. Más información acerca de BETO está disponible en https://github.com/dccuchile/beto
 
-El conocimiento del lenguaje español capturado por _BETO_ es “transferido” al modelo de ejemplo, en el que únicamente se requiere afinarlo. El proceso de afinamiento consiste justamente en la inclusión de un clasificador, y en el re-entrenamiento supervisado sobre un dataset más pequeño. De esta manera, el modelo adquiere conocimiento específico del dominio.
+El conocimiento del lenguaje español capturado por _BETO_ es “transferido” al modelo de ejemplo, en el que únicamente se requiere afinarlo. El proceso de afinamiento consiste justamente en la inclusión de un clasificador, y en el re-entrenamiento supervisado sobre un conjunto de datos más pequeño. De esta manera, el modelo adquiere conocimiento específico del dominio.
 
 El modelo de ejemplo fue entrenado para clasificar cada texto en una o más clases.
