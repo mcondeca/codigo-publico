@@ -59,6 +59,7 @@ si deseas crearte una cuenta para comenzar prueba ingresando a este [link](https
 
 Si todo sale bien, deberías ingresar al home de Databricks y ver algo como esto:
 
+     
 <p align="center">
 <img width="700" 
      alt="bigdata2" 
